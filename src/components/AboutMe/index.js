@@ -18,6 +18,7 @@ const AboutMe = () => {
                     <SkillsText>
                         <span className="title-skills">Front-end:</span>
                         <span className="skill">JavaScript</span>
+                        <span className="skill">TypeScript</span>
                         <span className="skill">React</span>
                         <span className="skill">jQuery</span>
                         <span className="skill">CSS</span>
@@ -34,6 +35,7 @@ const AboutMe = () => {
                     <SkillsText>
                         <span className="title-skills">Back-end:</span>
                         <span className="skill">Python</span>
+                        <span className="skill">Node</span>
                         <span className="skill">API Rest</span>
                         <span className="skill">Flask</span>
                     </SkillsText>

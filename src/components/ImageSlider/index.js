@@ -35,7 +35,8 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                 scale={project.config.scaleImage ? 1 : 0} 
                 style={{
                     backgroundImage:`linear-gradient(0deg, rgba(0,0,0,0.5) 0%, transparent 25%),url(${project.images[imgIndex]})`,
-                    backgroundSize: project.config.resize
+                    backgroundSize: project.config.resize,
+                    backgroundColor: 'white'
                 }} 
             >
                 <SwipeContainer>
