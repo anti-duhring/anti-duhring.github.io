@@ -5,7 +5,7 @@
             "title": ["Brff App", "Brff App"],
             "description": [
                 "Um app de Fantasy Football para android com podcast integrado, feito sob demanda para o site BrFFootball. App feito com React Native + TypeScript.",
-                "NFL Fantasy app (on demand to https://brffootball.com.br/) with customized podcast. App build with React Native + TypeScript."
+                "NFL Fantasy app (on demand to https://brffootball.com.br/) with integrated podcast. App build with React Native + TypeScript."
             ],
             "url": "",
             "readme": "https://raw.githubusercontent.com/anti-duhring/brff-app/main/README.md",
@@ -20,7 +20,7 @@
             "title": ["Simulador de Draft", "Draft Simulator"],
             "description": [
                 "Um simulador de Draft da NFL alimentado por API própria, feito sob demanda para o site On The Clock. Web app feito com React + TypeScript e API feita com Python e Flask.",
-                "A NFL Draft Simulator which consuming API developed by myself, on demand to On The Clock website. Web app build with React + TypeScript and API build with Python + Flask."
+                "A NFL Draft Simulator which consumes an API, on demand to On The Clock website. Web app build with React + TypeScript and API build with Python + Flask."
             ],
             "url": "https://draft-simulator.netlify.app",
             "readme": null,
@@ -35,7 +35,7 @@
             "title": ["CrawJUD - Automação de processos", "CrawJUD - Automation for lawyers"],
             "description": [
                 "Vários bots de automação de serviços jurídicos, que fazem desde peticionamento em massa, busca por processos, movimentações processuais e etc. \n Feito com Python + Selenium + TkInter sob demanda para clientes como Amazonas Energia S/A.",
-                "Several bots to automate services for law offices in Brazil. These bots can do petition protocol, scrapy data, get process updates and etc. \n Coded with Python + Seleniun + TkInter on demand to clients like Amazonas Energia S/A."
+                "Several bots to automate services for law offices in Brazil. These bots can do petition protocol, scrapy data, get process updates and etc. \n Coded with Python + Selenium + TkInter on demand to clients like Amazonas Energia S/A."
             ],
             "url": "https://crawjud.wordpress.com",
             "readme": "",
@@ -80,7 +80,7 @@
             "title": ["Loja Digital", "E-commerce"],
             "description": [
                 "Um e-commerce completo e totalmente funcional, com método de pagamento por cartão e entrega internacional. Consumindo a Commerce.Js API e Strope API. Totalmente responsivo para mobile.",
-                "A complete internacional e-commerce with your own products and a functional payment method using React Js, Commerce.js API and Stripe API. Fully mobile responsive."
+                "A complete internacional e-commerce with custom products and a functional payment method using React + Commerce.js + Stripe API. Fully mobile responsive."
             ],
             "url": "https://eshop-test.netlify.app",
             "readme": "https://raw.githubusercontent.com/anti-duhring/e-commerce/main/README.md",

@@ -28,7 +28,6 @@ const AboutMe = () => {
                     <SkillsText>
                         <span className="title-skills">Mobile:</span>
                         <span className="skill">React Native</span>
-                        <span className="skill">Flutter</span>
                         <span className="skill">Expo/EAS</span>
                         <span className="skill">Android Environment</span>
                     </SkillsText>
@@ -45,6 +44,8 @@ const AboutMe = () => {
                         <span className="skill">SQLite</span>
                         <span className="skill">Firebase/Firestore</span>
                         <span className="skill">MongoDB</span>
+                        <span className="skill">Photoshop</span>
+                        <span className="skill">Figma</span>
                     </SkillsText>
                     <SkillsText>
                         <span className="title-skills">Soft Skills:</span>

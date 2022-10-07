@@ -22,3 +22,37 @@ a {
   text-decoration: none;
   color: inherit;
 }
+@keyframes tagAnimatedOne {
+  from {
+    transform: translateY(-20%) translateX(-10%);
+  }
+  to {
+    transform: translateY(20%) translateX(10%);
+  }
+}
+@keyframes tagAnimatedTwo {
+  from {
+    transform: translateY(20%) translateX(10%);
+  }
+  to {
+    transform: translateY(-20%) translateX(-10%);
+  }
+}
+@keyframes dotAnimated {
+  from {
+    transform: rotate(0deg) translate3d(10px, 0, 0) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate3d(10px, 0, 0) rotate(-360deg);
+  }
+}
+@keyframes dotAnimatedReverse {
+  from {
+    transform: rotate(360deg) translate3d(10px, 0, 0) rotate(-360deg);
+  }
+
+  to {
+    transform: rotate(0deg) translate3d(10px, 0, 0) rotate(0deg);
+  }
+}

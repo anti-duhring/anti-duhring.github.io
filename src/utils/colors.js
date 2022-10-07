@@ -3,7 +3,8 @@ export const Colors = {
     secondaryBlue: '#2b58d5',
     secondaryBlueLowOpacity: 'rgba(43, 88, 213, .1)',
     neutralWhite: 'white',
-    neutralGray: '#ffffff54'
+    neutralGray: '#ffffff54',
+    text: '#081330'
 }
 
 export const layoutSettings = {
