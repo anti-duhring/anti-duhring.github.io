@@ -68,6 +68,7 @@ const ProjectsGrid = styled.div`
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(auto,30rem));
+    justify-content: space-around;
 `
 const ProjectContainer = styled.div`
     text-align: center;

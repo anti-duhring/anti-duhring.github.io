@@ -12,7 +12,8 @@
             "images": ["https://user-images.githubusercontent.com/99638905/177190268-3db81019-741e-4341-85b4-fca6780f2680.jpg","https://user-images.githubusercontent.com/99638905/177190331-67976930-f20d-49ea-94dc-32126f409b20.jpg","https://user-images.githubusercontent.com/99638905/177190338-8f62c107-b3da-4f8a-b589-f0919e030fdd.jpg","https://user-images.githubusercontent.com/99638905/177190347-435ed280-a004-4c23-bd98-09ffe73e2ec9.jpg","https://user-images.githubusercontent.com/99638905/177190350-baf03d92-cf76-43c4-b1ef-797971e5cac2.jpg", "https://user-images.githubusercontent.com/99638905/177190359-2888056e-0787-4619-b370-5aa19907819d.jpg", "https://user-images.githubusercontent.com/99638905/177190383-2e85394f-a0f2-41b1-827f-05cfb11728f9.jpg", "https://user-images.githubusercontent.com/99638905/177190368-a1226201-1449-4493-a36d-1ba9158d8442.jpg", "https://user-images.githubusercontent.com/99638905/177190371-ecc95546-64a2-4389-9480-66b4b7356fe3.jpg", "https://user-images.githubusercontent.com/99638905/177190363-ccaa88f8-6664-4966-b072-e11cd3eab851.jpg", "https://user-images.githubusercontent.com/99638905/177190392-c4c7c5b3-871a-40dc-81b7-9dfa1166e0c7.jpg", "https://user-images.githubusercontent.com/99638905/177190401-e8ab54ee-dd8e-4f64-bb93-0b9a2707bfb4.jpg", "https://user-images.githubusercontent.com/99638905/177190409-250d68e8-b32c-45c1-ae63-032a62f91047.jpg"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "contain",
+                "iconColor": "rgba(0,0,0,0.5)"
             }
         },
         {
@@ -27,7 +28,8 @@
             "images": ["/Simulador-de-Draft.png","/Simulador-de-Draft2.png","/Simulador-de-Draft3.png"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "contain",
+                "iconColor": "rgba(0,0,0,0.5)"
             }
         },
         {
@@ -42,7 +44,8 @@
             "images": ["https://user-images.githubusercontent.com/99638905/194373219-2d2a28c8-38ca-42cf-8dba-962b813fd530.png"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "contain",
+                "iconColor": "rgba(0,0,0,0.5)"
             }
         },
         {
@@ -57,7 +60,8 @@
             "images": ["https://user-images.githubusercontent.com/99638905/191829110-34b32675-2008-4e1a-9ad3-0a8602524b61.png", "https://user-images.githubusercontent.com/99638905/191829187-034828d7-08bc-411a-ad1f-0895a26e5296.png", "https://user-images.githubusercontent.com/99638905/194379092-50b46263-ebd1-43c4-aac4-5332857a92c7.png"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "contain",
+                "iconColor": "white"
             }
         },
         {
@@ -72,22 +76,24 @@
             "images": ["https://user-images.githubusercontent.com/99638905/158039824-0f7b6680-06f8-4e66-80a3-f2332b13e8f1.png"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "contain",
+                "iconColor": "rgba(0,0,0,0.5)"
             }
         },
         {
             "id": 6,
-            "title": ["Loja Digital", "E-commerce"],
+            "title": ["Gerador de posts para Instagram", "Instagram post generator"],
             "description": [
-                "Um e-commerce completo e totalmente funcional, com método de pagamento por cartão e entrega internacional. Consumindo a Commerce.Js API e Strope API. Totalmente responsivo para mobile.",
-                "A complete internacional e-commerce with custom products and a functional payment method using React + Commerce.js + Stripe API. Fully mobile responsive."
+                "Editor de imagem para facilitar a criação de posts de instagram. Feito com React + TypeScript + Canvas element.",
+                "Image editor to create, in a more easy way, posts for instagram. Built using React + TypeScript + Canvas element."
             ],
-            "url": "https://eshop-test.netlify.app",
-            "readme": "https://raw.githubusercontent.com/anti-duhring/e-commerce/main/README.md",
-            "images": ["https://user-images.githubusercontent.com/99638905/159783430-e5fff365-9308-4fe2-9d5b-4f4854595844.png", "https://user-images.githubusercontent.com/99638905/159783483-4a5b5bc5-f311-41ff-a87d-fc8ee9ffc3d0.png", "https://user-images.githubusercontent.com/99638905/159783515-045dea0f-408b-4170-84f5-eab3b90404a6.png", "https://user-images.githubusercontent.com/99638905/159783524-b87546cb-dfe2-46bb-9fba-9710768aa75f.png", "https://user-images.githubusercontent.com/99638905/159783540-0da55342-8f36-4138-8e26-59dff6920008.png", "https://user-images.githubusercontent.com/99638905/159783631-601b4321-d13e-4c6b-b63a-529b4f0ab055.png"],
+            "url": "",
+            "readme": "",
+            "images": ["https://user-images.githubusercontent.com/99638905/197115330-4fa619cd-e6bf-4104-8764-af28158b2806.png", "https://user-images.githubusercontent.com/99638905/197115336-1944bc5e-7436-4320-9b20-e7b8f1ec6b9c.png"],
             "config": {
                 "scaleImage": false,
-                "resize": "contain"
+                "resize": "cover",
+                "iconColor": "white"
             }
         }
     ]

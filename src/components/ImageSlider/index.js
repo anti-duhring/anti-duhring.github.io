@@ -28,7 +28,7 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
       });
 
     return ( 
-        <IconContext.Provider value={{ color: 'rgba(0,0,0,0.5)',size:'2rem'}}>
+        <IconContext.Provider value={{ color: 'black',size:'2rem'}}>
         <div className="parent">
             <ProjectImage 
                 {...handlers}
@@ -36,11 +36,17 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                 style={{
                     backgroundImage:`linear-gradient(0deg, rgba(0,0,0,0.5) 0%, transparent 25%),url(${project.images[imgIndex]})`,
                     backgroundSize: project.config.resize,
-                    backgroundColor: 'white'
+                    backgroundColor: 'white',
+                    borderRadius: '5px 5px 0 0',
+                    cursor: 'pointer'
                 }} 
+                onClick={() => {
+                    setImage(project.images[imgIndex])
+                    setShowImage(true)
+                }}
             >
                 <SwipeContainer>
-                    <SwipeMove>
+                    <SwipeMove hoverIconColor={project.config.iconColor}>
                         <div className="left" onClick={() => handlePrev(project.images)}>
                             <BsFillArrowLeftCircleFill />
                         </div>
@@ -66,6 +72,7 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                         }}
                     >
                         <BsAspectRatioFill />
+                        
                     </SwipeFullscreen>
                 </SwipeContainer>
             </ProjectImage>
@@ -105,6 +112,16 @@ const SwipeMove = styled.div`
     div:active {
         opacity: .8;
     }
+    div svg {
+        transition: .2s;
+        background-color: rgba(255,255,255,1);
+        border-radius: 100%;
+        opacity: .3;
+        padding: 1px;
+    }
+    div:hover svg{
+        opacity: .8;
+    }
 `
 const SwipeDots = styled.div`
     position: absolute;
@@ -137,4 +154,14 @@ const SwipeFullscreen = styled.div`
     top: 0%;
     right: 5%;
     cursor: pointer;
+
+    &:hover svg{
+        opacity: .8;
+    }
+
+    svg {
+        transition: .2s;
+        opacity: .3;
+    }
+
 `
