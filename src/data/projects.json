@@ -13,7 +13,7 @@
             "config": {
                 "scaleImage": false,
                 "resize": "contain",
-                "iconColor": "rgba(0,0,0,0.5)"
+                "iconColor": "black"
             }
         },
         {
@@ -23,13 +23,13 @@
                 "Um simulador de Draft da NFL alimentado por API própria, feito sob demanda para o site On The Clock. Web app feito com React + TypeScript e API feita com Python e Flask.",
                 "A NFL Draft Simulator which consumes an API, on demand to On The Clock website. Web app build with React + TypeScript and API build with Python + Flask."
             ],
-            "url": "https://draft-simulator.netlify.app",
+            "url": "http://simulador.ontheclock.com.br",
             "readme": null,
             "images": ["/Simulador-de-Draft.png","/Simulador-de-Draft2.png","/Simulador-de-Draft3.png"],
             "config": {
                 "scaleImage": false,
                 "resize": "contain",
-                "iconColor": "rgba(0,0,0,0.5)"
+                "iconColor": "black"
             }
         },
         {
@@ -45,7 +45,7 @@
             "config": {
                 "scaleImage": false,
                 "resize": "contain",
-                "iconColor": "rgba(0,0,0,0.5)"
+                "iconColor": "black"
             }
         },
         {
@@ -77,7 +77,7 @@
             "config": {
                 "scaleImage": false,
                 "resize": "contain",
-                "iconColor": "rgba(0,0,0,0.5)"
+                "iconColor": "black"
             }
         },
         {

@@ -34,7 +34,7 @@ const Projects = (props) => {
                         <br />
                         <br />
                         <a className="project-link" href={project.url}>
-                            {project.url.replace(/https:\/\//g,'')}
+                            {project.url.replace(/https:\/\//g,'').replace(/http:\/\//g,'')}
                         </a>
                     </ProjectDesc>
                 </ProjectInfo>

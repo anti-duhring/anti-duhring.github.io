@@ -20,7 +20,7 @@ const MediaItem = (props) => {
                             {props.title}
                         </span>
                         <span className="link">
-                            {props.link.replace(/https:\/\//g,'').replace(/mailto:/g,'')}
+                            {props.link.replace(/https:\/\//g,'').replace(/http:\/\//g,'').replace(/mailto:/g,'')}
                         </span>
                     </ContentMediaRight>}
                 </ContentMedia>

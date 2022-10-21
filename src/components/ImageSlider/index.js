@@ -29,7 +29,7 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
 
     return ( 
         <IconContext.Provider value={{ color: 'black',size:'2rem'}}>
-        <div className="parent">
+        <Container className="parent">
             <ProjectImage 
                 {...handlers}
                 scale={project.config.scaleImage ? 1 : 0} 
@@ -37,17 +37,12 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                     backgroundImage:`linear-gradient(0deg, rgba(0,0,0,0.5) 0%, transparent 25%),url(${project.images[imgIndex]})`,
                     backgroundSize: project.config.resize,
                     backgroundColor: 'white',
-                    borderRadius: '5px 5px 0 0',
-                    cursor: 'pointer'
+                    borderRadius: '5px 5px 0 0'
                 }} 
-                onClick={() => {
-                    setImage(project.images[imgIndex])
-                    setShowImage(true)
-                }}
             >
                 <SwipeContainer>
-                    <SwipeMove hoverIconColor={project.config.iconColor}>
-                        <div className="left" onClick={() => handlePrev(project.images)}>
+                    <SwipeMove hoverIconColor={project.config.iconColor} className="hover-toggle">
+                        <div className="left" onClick={(e) => {e.preventDefault(); handlePrev(project.images)}}>
                             <BsFillArrowLeftCircleFill />
                         </div>
                         <div className="right" onClick={() => handleNext(project.images)}>
@@ -57,7 +52,13 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                     <SwipeDots>
                         {project.images.map((item, index) => {
                             return (
-                                <Dot key={index} activeIndex={imgIndex} index={index}>
+                                <Dot 
+                                    key={index} 
+                                    activeIndex={imgIndex} 
+                                    index={index}
+                                    onClick={() => setImgIndex(index)}
+                                    className="hover-toggle"
+                                >
                                     <div className="inner-dot">
 
                                     </div>
@@ -70,18 +71,22 @@ const ImageSlider = ({project, showImage, setShowImage, image, setImage}) => {
                             setImage(project.images[imgIndex])
                             setShowImage(true)
                         }}
+                        className="hover-toggle"
                     >
                         <BsAspectRatioFill />
                         
                     </SwipeFullscreen>
                 </SwipeContainer>
             </ProjectImage>
-        </div>
+        </Container>
         </IconContext.Provider>
      );
 }
  
 export default ImageSlider;
+
+const Container = styled.div`
+`
 
 const ProjectImage = styled.div((props) => css`
     width: 100%;
@@ -114,7 +119,7 @@ const SwipeMove = styled.div`
     }
     div svg {
         transition: .2s;
-        background-color: rgba(255,255,255,1);
+        //background-color: rgba(255,255,255,1);
         border-radius: 100%;
         opacity: .3;
         padding: 1px;
@@ -141,9 +146,13 @@ const Dot = styled.div((props) => css`
     background-color: rgba(0,0,0,0.5);
     border-radius: 100%;
     padding: .2rem;
+    cursor: pointer;
 
+    &:hover .inner-dot {
+        background-color: rgba(255,255,255,0.5)
+    }
     .inner-dot {
-        background-color: ${props.index == props.activeIndex ? 'white' : 'transparent'};
+        background-color: ${props.index == props.activeIndex ? 'white!important' : 'transparent'};
         width: 100%;
         height: 100%;
         border-radius: 100%;
