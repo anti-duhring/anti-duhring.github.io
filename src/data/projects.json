@@ -39,7 +39,7 @@
                 "Vários bots de automação de serviços jurídicos, que fazem desde peticionamento em massa, busca por processos, movimentações processuais e etc. \n Feito com Python + Selenium + TkInter sob demanda para clientes como Amazonas Energia S/A.",
                 "Several bots to automate services for law offices in Brazil. These bots can do petition protocol, scrapy data, get process updates and etc. \n Coded with Python + Selenium + TkInter on demand to clients like Amazonas Energia S/A."
             ],
-            "url": "https://crawjud.wordpress.com",
+            "url": "",
             "readme": "",
             "images": ["https://user-images.githubusercontent.com/99638905/194373219-2d2a28c8-38ca-42cf-8dba-962b813fd530.png"],
             "config": {
@@ -52,10 +52,10 @@
             "id": 4,
             "title": ["Interface CrawJUD", "Interface CrawJUD"],
             "description": [
-                "Interface para o CrawJUD(coletânea de bots para automação), feita com React + TypeScript + ElectronJS + Node + Firebase. ",
-                "Interface to CrawJUD(several bots to automate services for law offices), coded with React + TypeScript + ElectronJS + Node + Firebase."
+                "Interface para o CrawJUD(coletânea de bots para automação), feita com React + TypeScript + ElectronJS + Node + MySQL. ",
+                "Interface to CrawJUD(several bots to automate services for law offices), coded with React + TypeScript + ElectronJS + Node + MySQL."
             ],
-            "url": "https://crawjud.wordpress.com",
+            "url": "https://github.com/anti-duhring/REM.exe",
             "readme": "",
             "images": ["https://user-images.githubusercontent.com/99638905/191829110-34b32675-2008-4e1a-9ad3-0a8602524b61.png", "https://user-images.githubusercontent.com/99638905/191829187-034828d7-08bc-411a-ad1f-0895a26e5296.png", "https://user-images.githubusercontent.com/99638905/194379092-50b46263-ebd1-43c4-aac4-5332857a92c7.png"],
             "config": {
@@ -66,14 +66,14 @@
         },
         {
             "id": 5,
-            "title": ["Interactive Football Field", "Interactive football field"],
+            "title": ["Passhelm", "Passhelm"],
             "description": [
-                "Um website completo feito pra ajudar fãs de futebol americano a entender as posições do jogo.",
-                "A complete website made to help new football fans to understand how the game really works"
+                "Um app mobile open source para gerenciamento de senhas utilizando React Native e TypeScript. Back-end construído com: Java, Spring Boot e PostgreSQL.",
+                "An open source mobile app to manage your own passwords using React Native and TypeScript. Backend built with: Java, Spring Boot and PostgreSQL."
             ],
-            "url": "https://teste-draft.netlify.app/positions.html",
-            "readme": "https://raw.githubusercontent.com/anti-duhring/interactive-football-field/main/README.md",
-            "images": ["https://user-images.githubusercontent.com/99638905/158039824-0f7b6680-06f8-4e66-80a3-f2332b13e8f1.png"],
+            "url": "https://github.com/anti-duhring/passhelm",
+            "readme": "",
+            "images": ["https://pbs.twimg.com/media/FkoKQvrXwAEobIR?format=jpg&name=large", "https://pbs.twimg.com/media/FkoKR4MWYAAPXbq?format=jpg&name=large", "https://pbs.twimg.com/media/FkoKQ91XgAIpdrh?format=jpg&name=large", "https://pbs.twimg.com/media/FkoKRIxX0AEYpqx?format=jpg&name=large", "https://pbs.twimg.com/media/FkoKQblXoAAyUn6?format=jpg&name=large"],
             "config": {
                 "scaleImage": false,
                 "resize": "contain",
@@ -82,17 +82,17 @@
         },
         {
             "id": 6,
-            "title": ["Gerador de posts para Instagram", "Instagram post generator"],
+            "title": ["VitaC - Cursos online", "VitaC - Online courses"],
             "description": [
-                "Editor de imagem para facilitar a criação de posts de instagram. Feito com React + TypeScript + Canvas element.",
-                "Image editor to create, in a more easy way, posts for instagram. Built using React + TypeScript + Canvas element."
+                "Plataforma de cursos online onde os administradores podem gerenciar cursos com aulas, artigos e podcasts e os usuários podem fazer as aulas, acompanhar sua evolução e responder com feedbacks. Feito com React, Node.JS e MongoDB.",
+                "Online course platform where admins can manage courses with classes, articles and podcasts and users can take these classes, follow their progress and respond with feedback. Made using React, Node.JS and MongoDB."
             ],
-            "url": "",
+            "url": "https://github.com/anti-duhring/VitaC.web",
             "readme": "",
-            "images": ["https://user-images.githubusercontent.com/99638905/197115330-4fa619cd-e6bf-4104-8764-af28158b2806.png", "https://user-images.githubusercontent.com/99638905/197115336-1944bc5e-7436-4320-9b20-e7b8f1ec6b9c.png"],
+            "images": ["https://miro.medium.com/max/720/1*u3bGoPb9weVj0vL4WXd1kg.gif", "https://miro.medium.com/v2/resize:fit:720/1*L6FYtm5DAP_VS8bsNVR21w.gif"],
             "config": {
                 "scaleImage": false,
-                "resize": "cover",
+                "resize": "contain",
                 "iconColor": "white"
             }
         }

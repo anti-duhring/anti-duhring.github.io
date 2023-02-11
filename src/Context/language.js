@@ -8,10 +8,10 @@ export const LanguageContextProvider = ({children}) => {
         "en": 1
     }
     const [language,setLanguage] = useState(langOptions.pt)
-    const title = ['Meu nome é Mateus. Sou um programador front-end freelancer e estudante de direito', "Hi, I'm Mateus, a freelancer front-end programmer and brazillian law student"]
+    const title = ['Meu nome é Mateus. Sou um desenvolvedor fullstack e estudante de direito', "Hi, I'm Mateus, a fullstack developer and brazillian law student"]
     const aboutMe = {
         title: ['Um pouco sobre mim...', 'More about me...'],
-        body: ['Meu nome é Mateus Vinícius de Lima, sou de Recife - PE, tenho 23 anos, estudante de Direito na Universidade Federal de Pernambuco. Apaixonado por programação desde a adolescência, agora procuro me aventurar na área de tecnologia em busca da possibilidade de materializar ideias e soluções. Trabalhei em escritórios de advocacia desde 2017, trago uma boa bagagem jurídica, experiências de trabalho em equipe e contato com cliente que certamente serão úteis. \n\n Trabalho como programador freelancer desde o início de 2022, com foco em web apps, mobile apps, REST APIs e bots de automação.', "My name is Mateus Vinícius de Lima, I'm a 23 years old brazillian law student at Universidade Federal de Pernambuco. I love programming since as a teenager, now I'm looking for new adventures in the IT career to build my own ideas and solutions. I worked to lawyers since 2017, so I bring some law knowledge and a lot experience with teamwork which will definitely be useful. \n\n I've worked as a freelancer programmer since early 2022's, building web apps, mobile apps, REST APIs and automation bots."]
+        body: ['Desenvolvedor Fullstack com experiência em React e React Native com TypeScript, e também com Python usando Flask, Java usando Spring Boot e Node usando Express na construção de API Restfuls, bem como AWS e Azure Cloud pra montagem e manutenção de infraestrutura. Estudante de Direito na Universidade Federal de Pernambuco. 24 anos.', "Fullstack developer woking with React and React Native using TypeScript, and also experience in Python with Flask, Java with Spring Boot and Node with Express building Restul APIs. AWS and Azure Cloud user for infrastructure assembly and maintenance. Law student at the Federal University of Pernambuco. 24 years."]
     }
     const skills = {
         title: ['Habilidades', 'Skills'],

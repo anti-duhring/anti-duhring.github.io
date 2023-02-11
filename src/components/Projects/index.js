@@ -13,6 +13,8 @@ const Projects = (props) => {
         projects
     } = useContext(LanguageContext)
 
+    data.projects.sort((a, b) => b.id - a.id);
+
     const ProjectItem = ({project}) => {
         return (
             <ProjectContainer>

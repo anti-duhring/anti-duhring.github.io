@@ -33,17 +33,27 @@ const AboutMe = () => {
                     </SkillsText>
                     <SkillsText>
                         <span className="title-skills">Back-end:</span>
-                        <span className="skill">Python</span>
-                        <span className="skill">Node</span>
+                        <span className="skill">Python with Flask</span>
+                        <span className="skill">Java with Spring Boot</span>
+                        <span className="skill">Node with Express</span>
                         <span className="skill">API Rest</span>
-                        <span className="skill">Flask</span>
+                    </SkillsText>
+                    <SkillsText>
+                        <span className="title-skills">Database:</span>
+                        <span className="skill">MySQL</span>
+                        <span className="skill">MongoDB</span>
+                        <span className="skill">Redis</span>
+                        <span className="skill">Postgres</span>
+                        <span className="skill">Firebase/Firestore</span>
                     </SkillsText>
                     <SkillsText>
                         <span className="title-skills">{skills.others[language]}:</span>
+                        <span className="skill">AWS</span>
+                        <span className="skill">Azure Cloud</span>
+                        <span className="skill">Linux</span>
+                        <span className="skill">Automation with Selenium</span>
+                        <span className="skill">Scrum</span>
                         <span className="skill">GIT</span>
-                        <span className="skill">SQLite</span>
-                        <span className="skill">Firebase/Firestore</span>
-                        <span className="skill">MongoDB</span>
                         <span className="skill">Photoshop</span>
                         <span className="skill">Figma</span>
                     </SkillsText>
