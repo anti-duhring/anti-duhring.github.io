@@ -37,7 +37,7 @@ const Contact = () => {
                 <MediaItem title="Github" img={GithubImg} link="https://github.com/anti-duhring" />
                 <MediaItem title="Email" img={GmailImg} link="mailto:mateus.limavn@gmail.com" />
                 <MediaItem title="Linkedin" img={LinkedinImg} link="https://linkedin.com/in/mateus-vinicius-lima/" />
-                <MediaItem title="Whatsapp" img={WppImg} link="(81) 988221999" />
+                <MediaItem title="Whatsapp" img={WppImg} link="https://wa.me/5581988221999" />
             </MediaFlexbox>
             </ContainerBlue>
             <AboutMe />
